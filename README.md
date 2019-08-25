@@ -1,5 +1,8 @@
 # React移动端组件库
 
+v1版本，有太多不足之处，
+[v2版本](https://github.com/WangXueZhi/react-component-mobile/tree/v2)，将会重新设计组件库和脚手架
+
 # 开发命令
 
 ### 构建
