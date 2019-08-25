@@ -1,19 +1,14 @@
-# 介绍
+### 演示案例：
+```jsx harmony
+import Example from './Example'
 
-这是个示例
-
-# API
-
-| 属性        | 说明                                                     | 类型        | 默认值 |
-|----------- |--------------------------------------------------------- | ---------- |-------|
-| name       | icon名字，对应显示你要的icon图形                             | string     | ""    |
-| className  | 添加class                                                 | string     | ""    |
-| color      | 自定义icon字体颜色                                          | string     | ""    |
-| size       | 自定义icon字体大小                                          | string     | ""    |
-| clickEvent | 点击自身事件                                                | function   | null    |
-
-
-
-
-
-
+;<div className="mobile-example">
+  {window.system && window.system.env === 'doc' 
+   ? <iframe src="./components/icon.html" />
+   : <div><Example /></div>
+  }
+</div>
+``` 
+```js { "file": "../Example.tsx" }
+```
+> <a target="_blank" href="https://www.iconfont.cn/manage/index?spm=a313x.7781069.1998910419.11&manage_type=myprojects&projectId=686328&keyword=">点击查看所有图标</a>

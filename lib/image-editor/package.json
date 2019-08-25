@@ -1,8 +1,0 @@
-{
-    "main": "./index.js",
-    "typings": "./index",
-    "dependencies": {
-        "touchjs": "^0.2.14",
-        "lrz": "^4.9.40"
-    }
-}

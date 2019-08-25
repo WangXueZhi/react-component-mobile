@@ -1,0 +1,6 @@
+{
+  "name": "ScrollContainer",
+  "version": "0.0.1",
+  "main": "./ScrollContainer.tsx",
+  "types": "./ScrollContainer.tsx"
+}

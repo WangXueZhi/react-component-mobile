@@ -1,0 +1,52 @@
+@import "../../style/global.scss";
+
+$rootName: x-swipe-action;
+
+.#{$rootName} {
+    overflow: hidden;
+    position: relative;
+
+    &.#{$rootName}-swiping {
+        .#{$rootName}-content {
+            transition: none;
+        }
+    }
+
+    .#{$rootName}-buttons,
+    .#{$rootName}-content {
+        transition: all .25s;
+    }
+
+    .#{$rootName}-buttons {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        overflow: hidden;
+        white-space: nowrap;
+        max-width: 50%;
+
+        .#{$rootName}-btn {
+            justify-content: center;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            -webkit-box-align: center;
+            -webkit-box-pack: center;
+            padding: 0 8px;
+        }
+    }
+
+    .#{$rootName}-buttons-left {
+        left: 0;
+    }
+
+    .#{$rootName}-buttons-right {
+        right: 0;
+    }
+
+    .#{$rootName}-content {
+        position: relative;
+        background-color: #fff;
+    }
+}

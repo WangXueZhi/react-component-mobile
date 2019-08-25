@@ -1,0 +1,6 @@
+{
+  "name": "Badge",
+  "version": "0.0.1",
+  "main": "./Badge.tsx",
+  "types": "./Badge.tsx"
+}

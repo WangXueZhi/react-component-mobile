@@ -1,0 +1,6 @@
+{
+  "name": "Pagination",
+  "version": "0.0.1",
+  "main": "./Pagination.tsx",
+  "types": "./Pagination.tsx"
+}

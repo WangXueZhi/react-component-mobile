@@ -1,0 +1,42 @@
+@import "../../style/global.scss";
+
+$rootName: x-pagination;
+
+.#{$rootName} {
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .#{$rootName}-item {
+        text-align: center;
+
+        .#{$rootName}-btn {
+            color: #333;
+            font-size: 24px;
+            padding: 0 20px;
+            display: inline-block;
+            height: 64px;
+            line-height: 64px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-sizing: border-box;
+            border: 1px solid #e5e5e5;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-break: break-word;
+            white-space: nowrap;
+            cursor: pointer;
+
+            &.#{$rootName}-btn-disable {
+                color: #999;
+                pointer-events: none;
+            }
+        }
+
+        .#{$rootName}-page {
+            color: #000;
+            font-size: 24px;
+        }
+    }
+}

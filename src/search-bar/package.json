@@ -1,0 +1,6 @@
+{
+  "name": "SearchBar",
+  "version": "0.0.1",
+  "main": "./SearchBar.tsx",
+  "types": "./SearchBar.tsx"
+}

@@ -1,7 +1,0 @@
-{
-  "name": "classnames",
-  "version": "1.0.0",
-  "description": "控制class",
-  "main": "./classnames.js",
-  "typings": "./classnames"
-}

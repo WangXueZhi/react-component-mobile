@@ -1,6 +1,0 @@
-{
-  "name": "device",
-  "description": "设备类型判断",
-  "main": "./device.js",
-  "typings": "./device"
-}

@@ -1,0 +1,33 @@
+@import "../../style/global.scss";
+
+$rootName: x-swipe-slider;
+
+.#{$rootName} {
+    
+}
+
+.swiper-test {
+    .swiper-slide {
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        color: #fff;
+    }
+    .swiperSlide-0 {
+        background-color: blue;
+    }
+    .swiperSlide-1 {
+        background-color: red;
+    }
+    .swiperSlide-2 {
+        background-color: #1cff00;
+    }
+    .swiperSlide-3 {
+        background-color: #ff7600;
+    }
+    .swiperSlide-4 {
+        background-color: #fb00ff;
+    }
+}

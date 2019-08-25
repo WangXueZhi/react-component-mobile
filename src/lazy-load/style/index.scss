@@ -1,0 +1,7 @@
+@import "../../style/global.scss";
+
+$rootName: x-lazy-load;
+
+.#{$rootName} {
+    background-color: #a9a9a9;
+}

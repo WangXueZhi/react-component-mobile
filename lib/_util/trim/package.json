@@ -1,7 +1,0 @@
-{
-  "name": "trim",
-  "version": "1.0.0",
-  "description": "去除空格",
-  "main": "./trim.js",
-  "typings": "./trim"
-}

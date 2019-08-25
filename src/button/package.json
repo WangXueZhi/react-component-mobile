@@ -1,4 +1,6 @@
 {
-    "main": "./index.js",
-    "typings": "./index"
+  "name": "Button",
+  "version": "0.0.1",
+  "main": "./Button.tsx",
+  "types": "./Button.tsx"
 }

@@ -1,0 +1,6 @@
+{
+  "name": "ImagePicker",
+  "version": "0.0.1",
+  "main": "./ImagePicker.tsx",
+  "types": "./ImagePicker.tsx"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ImageUpload",
+  "version": "0.0.1",
+  "main": "./ImageUpload.tsx",
+  "types": "./ImageUpload.tsx"
+}

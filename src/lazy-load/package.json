@@ -1,0 +1,6 @@
+{
+  "name": "LazyLoad",
+  "version": "0.0.1",
+  "main": "./LazyLoad.tsx",
+  "types": "./LazyLoad.tsx"
+}

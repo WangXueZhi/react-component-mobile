@@ -1,0 +1,6 @@
+{
+  "name": "NumberKeyBoard",
+  "version": "0.0.1",
+  "main": "./NumberKeyBoard.tsx",
+  "types": "./NumberKeyBoard.tsx"
+}

@@ -1,7 +1,6 @@
 {
-  "name": "wdpc-Icon",
-  "version": "1.0.2",
-  "description": "Icon",
-  "main": "./index.js",
-  "typings": "./index"
+  "name": "Icon",
+  "version": "0.0.1",
+  "main": "./Icon.tsx",
+  "types": "./Icon.tsx"
 }

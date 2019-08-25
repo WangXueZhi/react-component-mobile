@@ -1,4 +1,6 @@
 {
-    "main": "./index.js",
-    "typings": "./index"
+  "name": "Toast",
+  "version": "0.0.1",
+  "main": "./Toast.tsx",
+  "types": "./Toast.tsx"
 }

@@ -1,0 +1,6 @@
+{
+  "name": "PullToRefresh",
+  "version": "0.0.1",
+  "main": "./PullToRefresh.tsx",
+  "types": "./PullToRefresh.tsx"
+}

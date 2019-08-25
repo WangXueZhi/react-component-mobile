@@ -1,3 +1,0 @@
-### demo
-
-webpack + react + redux

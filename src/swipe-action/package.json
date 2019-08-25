@@ -1,0 +1,6 @@
+{
+  "name": "SwipeAction",
+  "version": "0.0.1",
+  "main": "./SwipeAction.tsx",
+  "types": "./SwipeAction.tsx"
+}

@@ -1,0 +1,43 @@
+@import "../../style/global.scss";
+
+$rootName: x-badge;
+
+.#{$rootName} {
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+
+    .#{$rootName}-dot {
+        position: absolute;
+        transform: translateX(50%);
+        right: 0;
+        top: -0.2rem;
+        height: 0.5rem;
+        width: 0.5rem;
+        border-radius: 100%;
+        background: #ff5b05;
+        z-index: 10;
+    }
+
+    .#{$rootName}-count {
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: absolute;
+        top: 0;
+        height: 0.8rem;
+        line-height: 0.8rem;
+        min-width: 0.5rem;
+        border-radius: 1rem;
+        padding: 5px 10px;
+        text-align: center;
+        font-size: 22px;
+        color: #fff;
+        background-color: #ff5b05;
+        white-space: nowrap;
+        transform: translate(50%,-50%);
+        right: 0;
+        z-index: 10;
+    }
+}
