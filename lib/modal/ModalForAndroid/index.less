@@ -1,0 +1,42 @@
+@import "../../_style/base.less";
+
+.wdmb-ModalForAndroid {
+    width: 280*@hd;
+    background-color: #fff;
+    border-radius: 5*@hd;
+    overflow: hidden;
+    padding: 20*@hd;
+    box-sizing: border-box;
+    .wdmb-ModalForAndroid-container {
+        padding-bottom: 12.5*@hd;
+        .wdmb-ModalForAndroid-title {
+            text-align: left;
+            font-size: 18*@hd;
+            color: #333333;
+        }
+        .wdmb-ModalForAndroid-content {
+            margin-top: 12.5*@hd;
+            text-align: left;
+            font-size: 15*@hd;
+            color: #999999;
+        }
+    }
+
+    .wdmb-ModalForAndroid-button {
+        color: #fff;
+        display: flex;
+        justify-content: flex-end;
+        button {
+            color: #fff;
+            background-color: #fff;
+            border: 0;
+            outline: none;
+            font-size: 18*@hd;
+            margin-right: 26*@hd;
+            color: #2196FE;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

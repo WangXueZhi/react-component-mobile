@@ -1,0 +1,7 @@
+{
+  "name": "formattel",
+  "version": "1.0.0",
+  "description": "格式化手机号码",
+  "main": "./formatTel.js",
+  "typings": "./formatTel"
+}

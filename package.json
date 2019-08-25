@@ -1,0 +1,53 @@
+{
+  "name": "mobile-component",
+  "version": "0.0.1",
+  "description": "React 移动端组件库",
+  "main": "./lib",
+  "types": "./src",
+  "files": [
+    "src",
+    "lib",
+    "LICENSE",
+    "README.md",
+    "package.json",
+    "tsconfig.json"
+  ],
+  "dependencies": {
+    "@types/jquery": "^2.0.0",
+    "@types/react": "^15.4.2",
+    "@types/react-dom": "^15.4.2",
+    "jquery": "^2.0.0",
+    "natty-fetch": "latest",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "touchjs": "^0.2.14",
+    "lrz": "^4.9.40"
+  },
+  "devDependencies": {
+    "annotations": "^0.1.340",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-jsdoc3": "^2.0.0",
+    "gulp-less": "^3.3.0",
+    "gulp-rename": "^1.2.3",
+    "gulp-replace": "^1.0.0",
+    "gulp-typescript": "^3.1.5",
+    "gulp-uglify": "^2.0.1",
+    "less-plugin-functions": "^1.0.0",
+    "open": "^0.0.5",
+    "shelljs": "^0.7.8",
+    "typescript": "next"
+  },
+  "scripts": {
+    "demo": "gulp demo",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:WangXueZhi/react-component-mobile.git"
+  },
+  "author": "Wang XueZhi <417787371@qq.com>",
+  "license": "ISC"
+}

@@ -1,0 +1,5 @@
+{
+  "description": "SwitchBar",
+  "main": "./index.js",
+  "typings": "./index"
+}

@@ -1,0 +1,39 @@
+.wdmb-ModalForAndroid {
+  width: 280px;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.wdmb-ModalForAndroid .wdmb-ModalForAndroid-container {
+  padding-bottom: 12.5px;
+}
+.wdmb-ModalForAndroid .wdmb-ModalForAndroid-container .wdmb-ModalForAndroid-title {
+  text-align: left;
+  font-size: 18px;
+  color: #333333;
+}
+.wdmb-ModalForAndroid .wdmb-ModalForAndroid-container .wdmb-ModalForAndroid-content {
+  margin-top: 12.5px;
+  text-align: left;
+  font-size: 15px;
+  color: #999999;
+}
+.wdmb-ModalForAndroid .wdmb-ModalForAndroid-button {
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+}
+.wdmb-ModalForAndroid .wdmb-ModalForAndroid-button button {
+  color: #fff;
+  background-color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  margin-right: 26px;
+  color: #2196FE;
+}
+.wdmb-ModalForAndroid .wdmb-ModalForAndroid-button button:last-child {
+  margin-right: 0;
+}

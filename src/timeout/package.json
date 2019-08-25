@@ -1,0 +1,4 @@
+{
+    "main": "./TimeOut.js",
+    "typings": "./TimeOut"
+}

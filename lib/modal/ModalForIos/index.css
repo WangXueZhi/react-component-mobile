@@ -1,0 +1,42 @@
+.wdmb-ModalForIos {
+  width: 280px;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.wdmb-ModalForIos .wdmb-ModalForIos-container {
+  padding: 20px;
+}
+.wdmb-ModalForIos .wdmb-ModalForIos-container .wdmb-ModalForIos-title {
+  text-align: center;
+  font-size: 18px;
+  color: #333333;
+}
+.wdmb-ModalForIos .wdmb-ModalForIos-container .wdmb-ModalForIos-content {
+  margin-top: 9px;
+  text-align: center;
+  font-size: 15px;
+  color: #999999;
+}
+.wdmb-ModalForIos .wdmb-ModalForIos-button {
+  color: #fff;
+  border-top: 1px solid #EAEAEA;
+  display: flex;
+}
+.wdmb-ModalForIos .wdmb-ModalForIos-button button {
+  color: #fff;
+  background-color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  padding: 13px 0;
+  flex-grow: 1;
+  border-left: 1px solid #EAEAEA;
+  color: #333333;
+}
+.wdmb-ModalForIos .wdmb-ModalForIos-button button:first-child {
+  border-left: 0;
+}
+.wdmb-ModalForIos .wdmb-ModalForIos-button button.wdmb-ModalForIos-button-main {
+  color: #2196FE;
+}

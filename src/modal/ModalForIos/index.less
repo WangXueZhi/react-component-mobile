@@ -1,0 +1,45 @@
+@import "../../_style/base.less";
+
+.wdmb-ModalForIos {
+    width: 280*@hd;
+    background-color: #fff;
+    border-radius: 5*@hd;
+    overflow: hidden;
+    .wdmb-ModalForIos-container {
+        padding: 20*@hd;
+        .wdmb-ModalForIos-title {
+            text-align: center;
+            font-size: 18*@hd;
+            color: #333333;
+        }
+        .wdmb-ModalForIos-content {
+            margin-top: 9*@hd;
+            text-align: center;
+            font-size: 15*@hd;
+            color: #999999;
+        }
+    }
+
+    .wdmb-ModalForIos-button {
+        color: #fff;
+        border-top: 1px solid #EAEAEA;
+        display: flex;
+        button {
+            color: #fff;
+            background-color: #fff;
+            border: 0;
+            outline: none;
+            font-size: 18*@hd;
+            padding: 13*@hd 0;
+            flex-grow: 1;
+            border-left: 1px solid #EAEAEA;
+            color: #333333;
+            &:first-child {
+                border-left: 0;
+            }
+            &.wdmb-ModalForIos-button-main {
+                color: #2196FE;
+            }
+        }
+    }
+}

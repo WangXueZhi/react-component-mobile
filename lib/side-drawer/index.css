@@ -1,0 +1,53 @@
+.wdmb-Drawer {
+  position: fixed;
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+}
+.wdmb-Drawer.wdmb-Drawer-show {
+  width: 100%;
+}
+.wdmb-Drawer .wdmb-Drawer-Container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.wdmb-Drawer .wdmb-Drawer-Container .wdmb-Drawer-stepsContent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: transform .3s ease 0s;
+}
+.wdmb-Drawer .wdmb-Drawer-Container .wdmb-Drawer-stepsContent .wdmb-Drawer-mask {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+.wdmb-Drawer .wdmb-Drawer-Container .wdmb-Drawer-stepsContent .wdmb-Drawer-wraper {
+  height: 100%;
+  box-shadow: -2px 0px 20px 0 #ccc;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+}
+.wdmb-Drawer .wdmb-Drawer-Container .wdmb-Drawer-stepsContent.wdmb-Drawer-left {
+  transform: translateX(-100%);
+}
+.wdmb-Drawer .wdmb-Drawer-Container .wdmb-Drawer-stepsContent.wdmb-Drawer-left .wdmb-Drawer-wraper {
+  left: 0;
+}
+.wdmb-Drawer .wdmb-Drawer-Container .wdmb-Drawer-stepsContent.wdmb-Drawer-right {
+  transform: translateX(100%);
+}
+.wdmb-Drawer .wdmb-Drawer-Container .wdmb-Drawer-stepsContent.wdmb-Drawer-right .wdmb-Drawer-wraper {
+  right: 0;
+}
+.wdmb-Drawer .wdmb-Drawer-Container .wdmb-Drawer-stepsContent.wdmb-Drawer-stepShow {
+  transform: translateX(0);
+}

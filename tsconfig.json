@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2015",
+        "sourceMap": true,
+        "stripInternal": true,
+        "rootDir": "./",
+        "outDir": "./lib",
+        "newLine": "LF",
+        "moduleResolution": "node",
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "declaration": true
+    },
+    "exclude": [
+        "node_modules",
+        ".vscode",
+        "_*"
+    ],
+    "compileOnSave": true
+}
