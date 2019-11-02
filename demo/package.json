@@ -53,7 +53,7 @@
     "less-loader": "^4.1.0",
     "mini-css-extract-plugin": "^0.4.1",
     "multer": "^1.2.1",
-    "open": "^0.0.5",
+    "open": "^7.0.0",
     "shelljs": "latest",
     "postcss-loader": "^2.1.5",
     "style-loader": "^0.21.0",
